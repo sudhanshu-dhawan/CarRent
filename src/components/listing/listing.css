@@ -1,0 +1,99 @@
+#listing_main_div{
+    padding:0px 150px 0px 150px  ;
+    padding-top: 50px;
+}
+#listing_car_list{
+ display: flex;
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.344);
+}
+#listing_heading_star_flex{
+    display: flex;
+  
+}
+#shadowtry h2{
+    font-weight: bold;
+    font-size: 1.0em;
+    color: #333;
+    padding-bottom: 3vh;
+    box-shadow: 0px 1px 0px 0px rgba(128, 128, 128, 0.664);  
+    color: red;
+}
+#shadowtry h1{
+    padding-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+ 
+    
+}
+#shadowtry{
+    padding-left: 30px;
+}
+#listing_star_rating{
+    margin-left: 420px; 
+    padding-top: 20px;
+    
+}
+#listing_para p{
+color: rgba(125, 125, 125, 0.559);
+padding-left: 30px;
+padding-top: 20px;
+padding-bottom: 10px;
+}
+#listing_icons{
+    display: flex;
+    gap:65px;
+  padding-left: 30px;
+  box-shadow: rgba(0, 0, 0, 0.216) 0px 2px 4px 0px inset;
+ 
+}
+
+#listing_iconss{
+    padding-top:20px;
+    padding-left: 20px;
+    width: 100px;
+    /* box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.664); */
+    box-shadow: rgba(0, 0, 0, 0.234) 3px 2px 9px 0px inset;
+   
+}
+
+
+#listing_button button{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    width: 194px;
+    height: 65px;
+}
+#listing_button_flex{
+    display: flex;
+}
+#listing_previous_next_btn{
+    display: flex;
+    gap:10px
+
+}
+#listing_previous_btn button{
+    border: rgba(133, 133, 133, 0.274) solid 4px ;
+    height: 50px;
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+}
+#listing_next_btn button{
+    border: rgba(133, 133, 133, 0.274) solid 4px ;
+    height: 50px;
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+}
+#listing_one_btn button{
+    border: rgba(133, 133, 133, 0.274) solid 4px ;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 255, 255);
+}
+#listing_two_btn button{
+    border: rgba(133, 133, 133, 0.274) solid 4px ;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 255, 255);
+}

@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 320px;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 99;
+    background-size: cover;
+    background: url('./Car2.jpg');
+}
+
+@media (max-width: 1200px) {
+    header {
+        height: 280px;
+        padding: 20px 80px;
+    }
+}
+
+@media (max-width: 992px) {
+    header {
+        height: 240px;
+        padding: 20px 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        height: 200px;
+        padding: 20px 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 576px) {
+    header {
+        height: 180px;
+        padding: 10px 20px;
+    }
+}
+
+
+.logo {
+    font-size: 2em;
+    color: #ffffff;
+    user-select: none;
+    
+}
+.navigation a {
+    position: relative;
+    font-size: 1.1em;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.navigation a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #ffffff;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.navigation a:hover::after {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+@media (max-width: 1200px) {
+    .navigation a {
+        font-size: 1em;
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navigation a {
+        font-size: 0.9em;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navigation a {
+        font-size: 0.8em;
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navigation a {
+        font-size: 0.7em;
+        margin-left: 10px;
+    }
+}
+
+.bthLogin-popup {
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #ffffff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #ffffff;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+}
+
+.bthLogin-popup:hover {
+    background: #ffffff;
+    color: #162938;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    .bthLogin-popup {
+        width: 120px;
+        height: 45px;
+        font-size: 1em;
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    .bthLogin-popup {
+        width: 110px;
+        height: 40px;
+        font-size: 0.9em;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .bthLogin-popup {
+        width: 100px;
+        height: 35px;
+        font-size: 0.8em;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .bthLogin-popup {
+        width: 90px;
+        height: 30px;
+        font-size: 0.7em;
+        margin-left: 5px;
+    }
+}
